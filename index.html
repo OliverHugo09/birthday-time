@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumpleaños - Los Diarios de la Boticaria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <svg class="floral-decor floral-decor--left" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M 40 10 Q 35 20, 40 30 Q 45 20, 40 10" fill="var(--color-secondary)" opacity="0.7"/>
+        <path d="M 20 40 Q 30 35, 40 40 Q 30 45, 20 40" fill="var(--color-primary)" opacity="0.7"/>
+        <path d="M 60 40 Q 50 35, 40 40 Q 50 45, 60 40" fill="var(--color-primary)" opacity="0.7"/>
+        <circle cx="40" cy="40" r="3" fill="var(--color-accent-gold)" opacity="0.8"/>
+    </svg>
+    <svg class="floral-decor floral-decor--right" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M 40 10 Q 35 20, 40 30 Q 45 20, 40 10" fill="var(--color-secondary)" opacity="0.7"/>
+        <path d="M 20 40 Q 30 35, 40 40 Q 30 45, 20 40" fill="var(--color-primary)" opacity="0.7"/>
+        <path d="M 60 40 Q 50 35, 40 40 Q 50 45, 60 40" fill="var(--color-primary)" opacity="0.7"/>
+        <circle cx="40" cy="40" r="3" fill="var(--color-accent-gold)" opacity="0.8"/>
+    </svg>
+
+    <header class="header">
+        <svg class="header__emblem" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" fill="none" stroke="var(--color-border)" stroke-width="1"/>
+            <path d="M 30 12 Q 28 18, 30 24 Q 32 18, 30 12" fill="var(--color-secondary)"/>
+            <path d="M 18 30 Q 24 28, 30 30 Q 24 32, 18 30" fill="var(--color-primary)"/>
+            <path d="M 42 30 Q 36 28, 30 30 Q 36 32, 42 30" fill="var(--color-primary)"/>
+            <circle cx="30" cy="30" r="4" fill="var(--color-accent-gold)"/>
+        </svg>
+        <h1 class="header__title">薬屋のひとりごと</h1>
+        <p class="header__subtitle">Cumpleaños</p>
+        <svg class="header__divider" viewBox="0 0 150 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M 10 10 L 40 10 M 110 10 L 140 10" stroke="var(--color-border)" stroke-width="1"/>
+            <path d="M 65 10 Q 75 5, 85 10 Q 75 15, 65 10" fill="var(--color-secondary)"/>
+            <circle cx="75" cy="10" r="2" fill="var(--color-accent-gold)"/>
+        </svg>
+    </header>
+
+    <main class="main">
+        <section id="birthdays-list" class="birthdays-list" aria-live="polite" aria-label="Lista de cumpleaños"></section>
+        <section id="error-message" class="error-message" role="alert" aria-live="assertive" style="display: none;"></section>
+    </main>
+
+    <footer class="footer">
+        <svg class="footer__herbs" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M 20 15 Q 25 10, 30 15 Q 25 20, 20 15" fill="var(--color-secondary)"/>
+            <path d="M 40 15 Q 45 8, 50 15 Q 45 22, 40 15" fill="var(--color-primary)"/>
+            <path d="M 60 15 Q 65 10, 70 15 Q 65 20, 60 15" fill="var(--color-secondary)"/>
+            <circle cx="50" cy="15" r="2" fill="var(--color-accent-gold)"/>
+        </svg>
+        <p class="footer__text">猫猫 · Jinshi · Apothecary Diaries</p>
+    </footer>
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>

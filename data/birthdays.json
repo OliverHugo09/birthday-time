@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Maomao",
+    "date": "10-21",
+    "note": "La boticaria del palacio interior. Curiosa, lógica y amante de los venenos y medicinas.",
+    "gifts": "Libros de farmacología raros, hierbas medicinales exóticas, especímenes de plantas venenosas"
+  },
+  {
+    "name": "Jinshi",
+    "date": "03-15",
+    "note": "El elegante eunuco de alto rango. En realidad el príncipe heredero disfrazado.",
+    "gifts": "Accesorios de jade, té de alta calidad, libros de poesía, dulces refinados"
+  },
+  {
+    "name": "Gyokuyou",
+    "date": "07-28",
+    "note": "La Consorte Virtuosa, una de las cuatro consortes de alto rango. Madre del heredero.",
+    "gifts": "Sedas finas, accesorios para el cabello, perfumes florales, instrumentos musicales"
+  },
+  {
+    "name": "Lihaku",
+    "date": "11-03",
+    "note": "Oficial militar, amigo de infancia de Maomao. Fuerza bruta pero corazón noble.",
+    "gifts": "Licor fuerte, carne seca, armas de práctica, manuales de estrategia"
+  },
+  {
+    "name": "Gaoshun",
+    "date": "01-20",
+    "note": "Mayordomo y mano derecha de Jinshi. Eficiente, leal y observador.",
+    "gifts": "Té de hierbas calmantes, papelería de calidad, dulces de pasta de frijol rojo"
+  },
+  {
+    "name": "Fengxian",
+    "date": "09-12",
+    "note": "La madre de Maomao, antigua cortesana de la Casa de las Flores. Enferma pero brillante.",
+    "gifts": "Cosméticos naturales, aceites esenciales, poesía, recuerdos del pasado"
+  }
+]

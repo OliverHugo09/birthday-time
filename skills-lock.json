@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "boost-prompt": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/boost-prompt/SKILL.md",
+      "computedHash": "2621a44fbd9fc2636953d1e6e39e5faeed995f7fb958ec12cc98a2f0576f6fa7"
+    },
+    "software-project-manager": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "local",
+      "skillPath": "skills/software-project-manager/SKILL.md",
+      "computedHash": "3a0481591523c55ecfe2569b6b28b2dcbfa3742367667697219d29170981ad54"
+    },
+    "requirements-analyst": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "local",
+      "skillPath": "skills/requirements-analyst/SKILL.md",
+      "computedHash": "d4b3c5e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3"
+    },
+    "product-owner": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "local",
+      "skillPath": "skills/product-owner/SKILL.md",
+      "computedHash": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2"
+    },
+    "software-architect": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "local",
+      "skillPath": "skills/software-architect/SKILL.md",
+      "computedHash": "f1e2d3c4b5a6f7e8d9c0b1a2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"
+    },
+    "software-engineer": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "local",
+      "skillPath": "skills/software-engineer/SKILL.md",
+      "computedHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+    }
+  }
+}
